@@ -1,0 +1,142 @@
+/*
+  Coding from Life – Sketch 1: fixed layout
+
+  For sketch 1 you'll be positioning elements relative to an element with a fixed
+  width and height. For this sketch you can position elements by using pixel values.
+*/
+
+body {
+  background-color: black;
+}
+
+.frame {
+  width: 1000px;
+  height: 600px;
+  background: white;
+  margin: 30px auto;
+  position: relative;
+}
+
+/* Your CSS goes here */
+.table {
+	position: absolute;
+	width: 800px;
+  height: 150px;
+  bottom: 0px;
+  left: 100px;
+	background-color: #0eb174;
+}
+
+.jarbotrect {
+  position: absolute;
+  width: 250px;
+  height: 25px;
+  bottom: 150px;
+  left: 150px;
+  background-color: #7ee8ba;
+  z-index: 1;
+}
+
+.jarellipse {
+  position: absolute;
+  width: 209px;
+  height: 163px;
+  background: #0eb174;
+  border-radius: 104px / 68px;
+  left: 171px;
+  bottom: 150px;
+}
+
+.jartoprect {
+  position: absolute;
+  width: 250px;
+  height: 25px;
+  bottom: 290px;
+  left: 150px;
+  background-color: #7ee8ba;
+}
+
+.jarknob {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background: #7ee8ba;
+  border-radius: 50%;
+  left: 261px;
+  bottom: 308px;
+}
+
+.candlebotrect {
+  position: absolute;
+  width: 100px;
+  height: 10px;
+  bottom: 150px;
+  left: 420px;
+  background-color: #0eb174;
+}
+
+.candleshaft {
+  position: absolute;
+  width: 5px;
+  height: 100px;
+  bottom: 150px;
+  left: 467px;
+  background-color: #0eb174;
+}
+
+.candletoprect {
+  position: absolute;
+  width: 20px;
+  height: 141px;
+  bottom: 249px;
+  left: 460px;
+  background-color: #7ee8ba;
+}
+
+.candlewick {
+  position: absolute;
+  width: 3px;
+  height: 9px;
+  bottom: 390px;
+  left: 468px;
+  background-color: #0eb174;
+}
+
+.vasebottri  {
+  position: absolute;
+  border-bottom: 35px solid #7ee8ba;
+  border-left: 35px solid transparent;
+  border-right: 35px solid transparent;
+  height: 0px;
+  width: 30px;
+  left: 590px;
+  bottom: 150px;
+  z-index: 1;
+}
+  
+
+.vasetoptri {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 40px solid #0eb174;
+  left: 590px;
+  bottom: 172px;
+}
+
+.vasetoprect {
+  position: absolute;
+  width: 100px;
+  height: 250px;
+  left: 590px;
+  bottom: 212px;
+  background-color: #7ee8ba;
+}
+
+.candle2 {
+  transform: translate(300px,-30px);
+}
+
+
